@@ -1,22 +1,16 @@
-.env
+# Node modules
 node_modules/
+
+# Environment variables
+.env
+
 # Logs
 logs/
 *.log
-npm-debug.log*
 
-# OS generated files
+# MacOS files
 .DS_Store
-Thumbs.db
 
-# Build output
-dist/
-build/
-
-# IDEs
+# Editor directories and files
 .vscode/
 .idea/
-
-# Optional lock files
-package-lock.json
-yarn.lock
